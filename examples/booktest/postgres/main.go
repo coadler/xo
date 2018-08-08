@@ -8,9 +8,9 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"github.com/xo/dburl"
+	"github.com/coadler/dburl"
 
-	"github.com/xo/xo/examples/booktest/postgres/models"
+	"github.com/coadler/xo/examples/booktest/postgres/models"
 )
 
 var flagVerbose = flag.Bool("v", false, "verbose")

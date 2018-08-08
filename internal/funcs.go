@@ -1,13 +1,14 @@
 package internal
 
 import (
+	"fmt"
 	"strconv"
 	"strings"
 	"text/template"
 
 	"github.com/knq/snaker"
 
-	"github.com/xo/xo/models"
+	"github.com/coadler/xo/models"
 )
 
 // NewTemplateFuncs returns a set of template funcs bound to the supplied args.
@@ -605,7 +606,7 @@ func (a *ArgType) colname(col *models.Column) string {
 		return a.Loader.Escape(ColumnEsc, col.ColumnName)
 	}
 
-	return col.ColumnName
+	return fmt.Sprintf("\"%s\"", col.ColumnName)
 }
 
 // hascolumn takes a list of fields and determines if field with the specified
