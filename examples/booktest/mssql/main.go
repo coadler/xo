@@ -8,7 +8,7 @@ import (
 
 	_ "github.com/denisenkom/go-mssqldb"
 
-	"github.com/coadler/dburl"
+	"github.com/xo/dburl"
 
 	"github.com/coadler/xo/examples/booktest/mssql/models"
 )

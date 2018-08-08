@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/coadler/dburl"
+	"github.com/xo/dburl"
 )
 
 var (

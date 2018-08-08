@@ -655,7 +655,7 @@ ie, a "self-documenting" schema. `xo` is an end to that pursuit.
 
 ## Related Projects
 
-* [dburl](https://github.com/coadler/dburl) - a Go package providing a standard, URL style mechanism for parsing and opening database connection URLs
+* [dburl](https://github.com/xo/dburl) - a Go package providing a standard, URL style mechanism for parsing and opening database connection URLs
 * [usql](https://github.com/coadler/usql) - a universal command-line interface for SQL databases
 
 ### Other Projects

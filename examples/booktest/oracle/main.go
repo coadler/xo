@@ -8,7 +8,7 @@ import (
 
 	_ "gopkg.in/rana/ora.v4"
 
-	"github.com/coadler/dburl"
+	"github.com/xo/dburl"
 
 	"github.com/coadler/xo/examples/booktest/oracle/models"
 )

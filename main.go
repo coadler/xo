@@ -16,12 +16,12 @@ import (
 
 	"github.com/alexflint/go-arg"
 
-	"github.com/coadler/dburl"
 	"github.com/coadler/xo/internal"
 	"github.com/coadler/xo/models"
+	"github.com/xo/dburl"
 
 	_ "github.com/coadler/xo/loaders"
-	_ "github.com/coadler/xoutil"
+	_ "github.com/xo/xoutil"
 )
 
 func main() {

@@ -8,7 +8,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/coadler/dburl"
+	"github.com/xo/dburl"
 
 	"github.com/coadler/xo/examples/booktest/mysql/models"
 )

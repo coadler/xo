@@ -8,8 +8,8 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/coadler/dburl"
-	"github.com/coadler/xoutil"
+	"github.com/xo/dburl"
+	"github.com/xo/xoutil"
 
 	"github.com/coadler/xo/examples/booktest/sqlite3/models"
 )
